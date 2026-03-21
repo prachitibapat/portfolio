@@ -5,7 +5,11 @@
       "mcp__plugin_context7_context7__query-docs",
       "Bash(npx:*)",
       "Bash(printf \"no\\\\nyes\\\\n\")",
-      "Bash(yes \"\")"
+      "Bash(yes \"\")",
+      "Bash(npm install:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c \":*)",
+      "Bash(python:*)"
     ]
   }
 }
