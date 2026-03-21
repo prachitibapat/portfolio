@@ -6,28 +6,34 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative py-6 border-t border-border">
-      <div className="max-w-6xl mx-auto px-6 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p className="text-xs text-foreground-muted">
+    <footer className="relative py-5 border-t border-border/40">
+      <div className="max-w-6xl mx-auto px-6 md:px-8 flex items-center justify-between">
+        <p className="text-[11px] tracking-wide text-foreground-muted/40 font-mono uppercase">
           &copy; {new Date().getFullYear()} Prachiti Bapat
         </p>
-        <div className="flex items-center gap-5">
-          {footerLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-foreground-muted hover:text-foreground transition-colors duration-200"
-            >
-              {link.label}
-            </a>
+
+        <div className="flex items-center gap-1">
+          {footerLinks.map((link, i) => (
+            <span key={link.label} className="flex items-center">
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[11px] tracking-wide font-mono uppercase text-foreground-muted/40 hover:text-foreground transition-colors duration-300 px-2 py-1"
+              >
+                {link.label}
+              </a>
+              {i < footerLinks.length - 1 && (
+                <span className="text-border/60 text-[8px]">/</span>
+              )}
+            </span>
           ))}
+          <span className="text-border/60 text-[8px]">/</span>
           <a
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-accent hover:text-accent-hover transition-colors duration-200"
+            className="text-[11px] tracking-wide font-mono uppercase text-accent/60 hover:text-accent transition-colors duration-300 px-2 py-1"
           >
             Resume
           </a>
