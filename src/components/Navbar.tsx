@@ -55,7 +55,7 @@ export default function Navbar() {
             href="#"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-sm font-semibold tracking-tight text-foreground"
+            className="text-2xl font-semibold tracking-tight text-foreground"
           >
             Prachiti <span className="text-accent">Bapat</span>
           </motion.a>

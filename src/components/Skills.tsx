@@ -11,7 +11,7 @@ const skillCategories = [
     iconBg: "bg-accent/10",
     dotColor: "bg-accent",
     iconColor: "text-accent",
-    skills: ["C", "C++", "Java", "Python", "TypeScript", "JavaScript", "PHP", "R"],
+    skills: ["Python", "TypeScript", "Java", "C/C++", "JavaScript", "Go", "SQL", "PHP"],
   },
   {
     title: "Frameworks & Web",
@@ -21,7 +21,7 @@ const skillCategories = [
     iconBg: "bg-sage/10",
     dotColor: "bg-sage",
     iconColor: "text-sage",
-    skills: ["React", "Next.js", "Node.js", "Django", "Flask", "Tailwind", "Bootstrap"],
+    skills: ["React", "Next.js", "Node.js", "Django", "Flask", "REST APIs", "GraphQL", "Tailwind"],
   },
   {
     title: "Data & Databases",
@@ -31,7 +31,7 @@ const skillCategories = [
     iconBg: "bg-lavender/10",
     dotColor: "bg-lavender",
     iconColor: "text-lavender",
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "DuckDB", "GraphQL", "ETL", "Data Warehousing"],
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "DuckDB", "Kafka", "ETL Pipelines"],
   },
   {
     title: "ML & Visualization",
@@ -41,17 +41,17 @@ const skillCategories = [
     iconBg: "bg-warm-highlight/10",
     dotColor: "bg-warm-highlight",
     iconColor: "text-warm-highlight",
-    skills: ["PyTorch", "Scikit-Learn", "Pandas", "NumPy", "OpenCV", "Tableau", "Power BI"],
+    skills: ["PyTorch", "Scikit-Learn", "Pandas", "NumPy", "OpenCV", "Hugging Face", "LangChain"],
   },
   {
     title: "Tools & Infra",
-    hoverDot: "group-hover:bg-accent",
-    hoverText: "group-hover:text-accent",
-    borderColor: "border-l-accent",
-    iconBg: "bg-accent/10",
-    dotColor: "bg-accent",
-    iconColor: "text-accent",
-    skills: ["AWS", "Docker", "Git", "Linux", "Figma", "VS Code"],
+    hoverDot: "group-hover:bg-sky",
+    hoverText: "group-hover:text-sky",
+    borderColor: "border-l-sky",
+    iconBg: "bg-sky/10",
+    dotColor: "bg-sky",
+    iconColor: "text-sky",
+    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Git", "Linux", "Terraform", "Protobuf"],
   },
 ];
 

@@ -17,6 +17,8 @@
   --warm-highlight-soft: #e8b04a30;
   --lavender: #b594e0;
   --lavender-soft: #b594e030;
+  --sky: #5b9cf5;
+  --sky-soft: #5b9cf530;
 }
 
 @theme inline {
@@ -36,6 +38,8 @@
   --color-warm-highlight-soft: var(--warm-highlight-soft);
   --color-lavender: var(--lavender);
   --color-lavender-soft: var(--lavender-soft);
+  --color-sky: var(--sky);
+  --color-sky-soft: var(--sky-soft);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
