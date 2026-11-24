@@ -6,10 +6,10 @@ const experiences = [
   {
     company: "Easley Dunn Productions",
     role: "Lead Software Engineer",
-    period: "Dec 2025 — Present",
+    period: "Dec 2025 — Jul 2026",
     location: "Los Angeles, CA",
     bullets: [
-      "Enhanced a Kanboard Gantt plugin using PHP, JavaScript, and DHTMLX Gantt, turning the default timeline into an interactive planning interface used by 4-5 teams (~50+ users) across ~10 projects.",
+      "Enhanced a Kanboard Gantt plugin using PHP, JavaScript, and DHTMLX Gantt, turning the default timeline into an interactive planning interface used by 4-5 teams (~50+ users) across ~6 projects.",
       "Implemented backend endpoints and validation logic to persist task creation, updates, and dependency links while blocking circular and invalid dependencies.",
       "Added sprint-aware planning workflows including inline sprint creation, child-task assignment, and milestone handling with automatic schedule recalculation.",
       "Built advanced planning controls — timeline zoom, grouping by assignee/category/sprint, workload views, and visual legends for project visibility.",
@@ -51,7 +51,7 @@ const experiences = [
     period: "May 2024 — Aug 2024",
     location: "Seattle, WA",
     bullets: [
-      "Designed and built a Java-based ingestion pipeline integrating Amazon\u2019s POG warehouse planning system with the GOAT monitoring platform for Amazon Fresh operations.",
+      "Designed and built a Java-based ingestion pipeline integrating Amazon\u2019s warehouse planning system with its monitoring platform for Amazon Fresh operations.",
       "Implemented data transformation and schema mapping logic to normalize datasets (CSV to structured records) with schema-flexible ingestion supporting future system onboarding.",
       "Added 3+ audit metadata fields for change traceability, integrated with AWS S3 storage for validated persistence across ingestion stages.",
       "Delivered the end-to-end project independently during a 3-month internship — from system analysis and schema design to implementation, testing, and validation.",

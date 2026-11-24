@@ -121,7 +121,7 @@ export default function About() {
               variants={fadeUp}
               className="text-foreground-muted text-lg leading-[1.8] text-justify"
             >
-              Currently at Easley Dunn Productions, I lead development on interactive
+              Most recently at Easley Dunn Productions, I led development of interactive
               project planning tools used by multiple teams. I&apos;m drawn to problems
               that sit at the intersection of systems engineering and user-facing products.
             </motion.p>
